@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Master" id="1" x="10" y="10" height="87" measuredWidth="480" measuredHeight="87">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Application%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="215"/>
+      <widgetChanges xsi:type="o:Delete" ref="212"/>
+      <widgetChanges xsi:type="o:Delete" ref="209"/>
+      <widgetChanges xsi:type="o:Delete" ref="204"/>
+      <widgets ref="203" height="87">
+        <attributes key="background" value="#6fa8dc"/>
+      </widgets>
+      <widgets ref="206" x="424" y="16" height="42"/>
+      <widgets ref="208" x="0" y="0" width="40" height="42">
+        <attributes key="icon" value="assets/wp-search (large)"/>
+      </widgets>
+      <widgets ref="206">
+        <widgetChanges xsi:type="o:Delete" ref="207"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="2" x="13" y="17" measuredWidth="62" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#List%20Icon"/>
+    <overrides>
+      <widgets ref="172">
+        <attributes key="icon" value="assets/fa-bars (xlarge)"/>
+        <attributes key="alpha" value="0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="4" x="80" y="23" measuredWidth="168" measuredHeight="46">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" text="Some Screen">
+        <font size="28px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

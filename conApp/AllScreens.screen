@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore" xmlns:o="http://wireframesketcher.com/1.0/model/overrides">
+  <widgets xsi:type="model:Image" id="509" x="1824" y="122" width="492" height="247" measuredWidth="492" measuredHeight="247" src="assets/images/collage2.png"/>
+  <widgets xsi:type="model:Image" id="64" x="1040" y="122" width="480" height="247" measuredWidth="480" measuredHeight="247" src="assets/images/collage2.png"/>
+  <widgets xsi:type="model:Master" id="290" x="2592" y="4571" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Move" ref="1" newIndex="4"/>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="foreground" value="#444"/>
+        <attributes key="border" value="solid-rounded"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="135" x="1927" y="5268" measuredWidth="451" measuredHeight="192">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="451" height="192" text="With the explosion of data generated and collected in recent years, the need to utilize and make sense of it has become paramount. Data science has emerged the discipline to tackle the explosion, combining traditional data fields such as analytics, modeling, and statistics with newer areas such as machine learning, visual and in-situ analytics, knowledge interfaces, and multi scale data integration."/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="149" x="1075" y="5268" measuredWidth="454" measuredHeight="192">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="454" height="192" text="With the explosion of data generated and collected in recent years, the need to utilize and make sense of it has become paramount. Data science has emerged the discipline to tackle the explosion, combining traditional data fields such as analytics, modeling, and statistics with newer areas such as machine learning, visual and in-situ analytics, knowledge interfaces, and multi scale data integration."/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="68" x="944" y="1424" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="12" x="200" y="1424" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="33" x="200" y="104" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="34" x="241" y="-9" measuredWidth="494" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" text="Splash Screen">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="31" x="247" y="1512" measuredWidth="296" measuredHeight="800">
+    <screen xsi:type="model:Screen" href="assets/NavMenu.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Move" ref="3" newIndex="8"/>
+      <widgets ref="1" width="296"/>
+      <widgets ref="1/356" width="296"/>
+      <widgets ref="1/357" width="262"/>
+      <widgets ref="3/172">
+        <attributes key="background" value="#3d85c6"/>
+        <attributes key="foreground" value="#fff"/>
+        <attributes key="alpha" value="255"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="35" x="304" y="1689" measuredWidth="240" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Menu"/>
+    <overrides>
+      <widgets ref="357" x="8" y="1" width="221" height="11" noText="true">
+        <itemChanges xsi:type="o:Delete" ref="@items.3"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+      <widgets ref="356" width="240" height="62">
+        <attributes key="background" value="#3d85c6"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="32" x="330" y="1706" measuredWidth="173" measuredHeight="28">
+    <widgets xsi:type="model:Master" id="22" measuredWidth="173" measuredHeight="28">
+      <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+      <overrides>
+        <widgets ref="231" text="Conference Tracks">
+          <font bold="true"/>
+        </widgets>
+      </overrides>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Master" id="25" x="330" y="1783" measuredWidth="86" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" text="Schedule">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="26" x="331" y="1858" measuredWidth="106" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" text="Bookmarks">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="27" x="332" y="1941" measuredWidth="85" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" text="Speakers">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="28" x="330" y="2013" measuredWidth="86" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" text="Sponsors">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="29" x="331" y="2088" measuredWidth="43" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" text="Map">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="30" x="331" y="2169" measuredWidth="68" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" text="Venues">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="36" x="330" y="1629" measuredWidth="57" measuredHeight="28">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" text="Home">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="38" x="241" y="191" height="810" measuredWidth="490" measuredHeight="810">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Menu"/>
+    <overrides>
+      <widgets ref="356" width="490" height="810">
+        <attributes key="background" value="#6fa8dc"/>
+      </widgets>
+      <widgets ref="357" y="19" width="455" height="157" noText="true">
+        <itemChanges xsi:type="o:Delete" ref="@items.3"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Image" id="39" x="260" y="543" measuredWidth="464" measuredHeight="144" src="assets/images/ghc2.jpg"/>
+  <widgets xsi:type="model:Master" id="40" x="456" y="784" measuredWidth="62" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#List%20Icon"/>
+    <overrides>
+      <widgets ref="172">
+        <attributes key="icon" value="loading (xlarge)"/>
+        <attributes key="background" value="#6fa8dc"/>
+        <attributes key="alpha" value="0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="41" x="1056" y="1" measuredWidth="461" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" text="Login Screen">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="42" x="992" y="103" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="45" x="241" y="190" measuredWidth="490" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgets ref="308" width="490"/>
+      <widgets ref="310" x="379"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="46" x="1040" y="190" width="485" measuredWidth="485" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgets ref="308" width="485"/>
+      <widgets ref="310" x="375" width="31"/>
+      <widgets ref="309" x="9" width="31"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="47" x="247" y="1511" width="480" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgets ref="310" x="371" width="31"/>
+      <widgets ref="309" x="9" width="31"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="49" x="991" y="1511" width="481" measuredWidth="481" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgets ref="308" width="481"/>
+      <widgets ref="310" x="371" width="31"/>
+      <widgets ref="309" x="9" width="31"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Image" id="50" x="248" y="221" width="481" height="324" measuredWidth="481" measuredHeight="324" src="assets/images/collage(1).jpg"/>
+  <widgets xsi:type="model:Master" id="51" x="1040" y="513" measuredWidth="482" measuredHeight="478">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Menu"/>
+    <overrides>
+      <widgets ref="356" width="482" height="478">
+        <attributes key="background" value="#6fa8dc"/>
+      </widgets>
+      <widgets ref="357" y="10" width="447" height="446" noText="true">
+        <itemChanges xsi:type="o:Delete" ref="@items.3"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="54" x="1103" y="666" measuredWidth="167" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Button"/>
+    <overrides>
+      <widgets ref="170" text="Log In"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="55" x="1304" y="666" measuredWidth="167" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Button"/>
+    <overrides>
+      <widgets ref="170" text="Sign Up"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="58" x="1070" y="523" measuredWidth="431" measuredHeight="46">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="288" text="Email">
+        <attributes key="background" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="59" x="1070" y="595" measuredWidth="431" measuredHeight="46">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="288" text="Password">
+        <attributes key="background" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Image" id="62" x="1140" y="735" measuredWidth="288" measuredHeight="66" src="assets/images/AllScreens_image.png"/>
+  <widgets xsi:type="model:Image" id="63" x="1139" y="811" width="288" height="64" measuredWidth="288" measuredHeight="64" src="assets/images/JkSed.png"/>
+  <widgets xsi:type="model:Image" id="52" x="1041" y="368" width="480" height="148" measuredWidth="480" measuredHeight="148" src="assets/images/ghc2.jpg"/>
+  <widgets xsi:type="model:Master" id="65" x="1784" y="103" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="66" x="1800" y="1" width="587" measuredWidth="587" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="587" text="Sign Up Screen">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="69" x="184" y="2793" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="70" x="198" y="4560" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="71" x="224" y="5908" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="72" x="5512" y="160" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="73" x="198" y="2680" measuredWidth="587" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="587" text="Home Page">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="75" x="232" y="2880" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="79" x="192" y="1311" width="721" measuredWidth="721" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="721" text="Conference Tracks">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="80" x="1053" y="1541" height="771" measuredWidth="418" measuredHeight="771">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Alphabetic%20List"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="353"/>
+      <widgetChanges xsi:type="o:Delete" ref="348"/>
+      <widgetChanges xsi:type="o:Delete" ref="343"/>
+      <widgetChanges xsi:type="o:Delete" ref="338"/>
+      <widgetChanges xsi:type="o:Delete" ref="336"/>
+      <widgets ref="331" width="418" height="771"/>
+      <widgets ref="332" x="19" y="8" width="179" text="Conference Tracks"/>
+      <widgets ref="333" x="19" y="64"/>
+      <widgets ref="334" width="50" height="50"/>
+      <widgets ref="335" y="2" width="22">
+        <font size="36px"/>
+      </widgets>
+      <widgets ref="337" x="22" y="114" width="353" text="Artificial Intelligence">
+        <font size="24px"/>
+      </widgets>
+      <widgets ref="339" x="22" y="153" width="148" text="Android">
+        <font size="24px"/>
+      </widgets>
+      <widgets ref="340" x="19" y="195"/>
+      <widgets ref="341" width="50" height="50"/>
+      <widgets ref="342" y="0" width="20" text="d">
+        <font size="36px"/>
+      </widgets>
+      <widgets ref="344" x="24" y="257" width="243" text="Data Science">
+        <font size="24px"/>
+      </widgets>
+      <widgets ref="345" x="19" y="299"/>
+      <widgets ref="346" y="2" width="50" height="50"/>
+      <widgets ref="347" x="7" y="0" text="i">
+        <font size="36px"/>
+      </widgets>
+      <widgets ref="349" x="22" y="360" width="299" text="Interactive Media">
+        <font size="24px"/>
+      </widgets>
+      <widgets ref="350" x="19" y="404"/>
+      <widgets ref="351" y="2" width="50" height="50"/>
+      <widgets ref="352" x="7" y="0" width="21">
+        <font size="36px"/>
+      </widgets>
+      <widgets ref="354" x="24" y="465" width="275" text="Security/Privacy">
+        <font size="24px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="84" x="232" y="7200" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="85" x="256" y="8504" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="86" x="204" y="4447" measuredWidth="587" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="587" text="Schedule">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="91" x="246" y="4647" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="97" x="1004" y="4560" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="103" x="1853" y="4560" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Move" ref="1" newIndex="4"/>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="foreground" value="#444"/>
+        <attributes key="border" value="solid-rounded"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="123" x="1915" y="4857" measuredWidth="478" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="478" height="36" text="Artificial Intelligence&#xD;&#xA;">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="124" x="1929" y="4888" measuredWidth="451" measuredHeight="174">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="451" height="174" text="The Artificial Intelligence (AI) track provides an exciting place for researchers and practitioners to present and discuss the latest trends and research results, novel tools, practical experiences, and technical challenges. "/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="126" x="1915" y="5092" measuredWidth="478" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="478" height="36" text="Data Science">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="127" x="1927" y="5118" measuredWidth="451" measuredHeight="95">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="451" height="95" text="With the explosion of data generated and collected in recent years, the need to utilize and make sense of it has become paramount. "/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="105" x="1901" y="4647" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="99" x="1052" y="4647" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="132" x="1901" y="4756" measuredWidth="481" measuredHeight="72">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Menu"/>
+    <overrides>
+      <widgets ref="357" x="14" y="0" width="445" height="12" noText="true">
+        <itemChanges xsi:type="o:Delete" ref="@items.3"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+      <widgets ref="356" width="481" height="72"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="106" x="1990" y="4763" measuredWidth="101" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" width="101" text="Day1">
+        <attributes key="state" value="disabled"/>
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="107" x="2105" y="4763" measuredWidth="95" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Day2">
+        <attributes key="state" value="disabled"/>
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="108" x="2224" y="4763" measuredWidth="91" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" width="91" text="Day3">
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="131" x="2209" y="4818" width="117" measuredWidth="117" measuredHeight="6"/>
+  <widgets xsi:type="model:Master" id="134" x="1915" y="5242" measuredWidth="478" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="478" height="36" text="Data Science (Advanced)">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="136" x="1053" y="4757" measuredWidth="479" measuredHeight="72">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Menu"/>
+    <overrides>
+      <widgets ref="357" x="14" y="0" width="443" height="12" noText="true">
+        <itemChanges xsi:type="o:Delete" ref="@items.3"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+      <widgets ref="356" width="479" height="72"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="137" x="1141" y="4764" measuredWidth="101" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" width="101" text="Day1">
+        <attributes key="state" value="disabled"/>
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="138" x="1256" y="4764" measuredWidth="95" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Day2">
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="139" x="1375" y="4764" measuredWidth="91" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" width="91" text="Day3">
+        <attributes key="state" value="disabled"/>
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="142" x="1062" y="4857" measuredWidth="482" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="482" height="36" text="Artificial Intelligence&#xD;&#xA;">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="143" x="1076" y="4888" measuredWidth="454" measuredHeight="174">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="454" height="174" text="The Artificial Intelligence (AI) track provides an exciting place for researchers and practitioners to present and discuss the latest trends and research results, novel tools, practical experiences, and technical challenges. "/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="145" x="1062" y="5092" measuredWidth="482" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="482" height="36" text="Data Science">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="146" x="1075" y="5118" measuredWidth="454" measuredHeight="95">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="454" height="95" text="With the explosion of data generated and collected in recent years, the need to utilize and make sense of it has become paramount. "/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="148" x="1062" y="5242" measuredWidth="482" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="482" height="36" text="Data Science (Advanced)">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="150" x="247" y="4826" measuredWidth="478" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" width="478" text="09:00 AM  -  10:00 AM">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="151" x="259" y="4859" measuredWidth="481" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="481" height="36" text="Artificial Intelligence&#xD;&#xA;">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="152" x="273" y="4888" measuredWidth="454" measuredHeight="174">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="454" height="174" text="The Artificial Intelligence (AI) track provides an exciting place for researchers and practitioners to present and discuss the latest trends and research results, novel tools, practical experiences, and technical challenges. "/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="154" x="259" y="5072" measuredWidth="481" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="481" height="36" text="Data Science">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="155" x="272" y="5104" measuredWidth="454" measuredHeight="95">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="454" height="95" text="With the explosion of data generated and collected in recent years, the need to utilize and make sense of it has become paramount. "/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="157" x="259" y="5242" measuredWidth="481" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="481" height="36" text="Data Science (Advanced)">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="158" x="272" y="5268" height="148" measuredWidth="454" measuredHeight="148">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="454" height="148" text="With the explosion of data generated and collected in recent years, the need to utilize and make sense of it has become paramount. Data science has emerged the discipline to tackle the explosion, combining traditional data fields such as analytics, modeling, and statistics with newer areas such as machine learning, visual and in-situ analytics, knowledge interfaces, and multi scale data integration."/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="159" x="247" y="4758" measuredWidth="479" measuredHeight="72">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Menu"/>
+    <overrides>
+      <widgets ref="357" x="14" y="0" width="443" height="12" noText="true">
+        <itemChanges xsi:type="o:Delete" ref="@items.3"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+      <widgets ref="356" width="479" height="72"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="160" x="335" y="4765" measuredWidth="101" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" width="101" text="Day1">
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="161" x="450" y="4765" measuredWidth="95" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Day2">
+        <attributes key="state" value="disabled"/>
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="162" x="569" y="4765" measuredWidth="91" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" width="91" text="Day3">
+        <attributes key="state" value="disabled"/>
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="163" x="322" y="4820" width="117" measuredWidth="117" measuredHeight="6"/>
+  <widgets xsi:type="model:Master" id="261" x="994" y="2242" measuredWidth="480" measuredHeight="71">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Application%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="215"/>
+      <widgetChanges xsi:type="o:Delete" ref="212"/>
+      <widgetChanges xsi:type="o:Delete" ref="209"/>
+      <widgetChanges xsi:type="o:Delete" ref="204"/>
+      <widgets ref="206" x="216"/>
+      <widgets ref="208">
+        <attributes key="icon" value="assets/wp-search (medium)"/>
+      </widgets>
+      <widgets ref="203">
+        <attributes key="background" value="#6fa8dc"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="262" x="226" y="5795" measuredWidth="587" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="587" text="Bookmarks">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="263" x="226" y="7087" measuredWidth="587" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="587" text="Speakers">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="264" x="250" y="8391" measuredWidth="587" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="587" text="Sponsors">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="265" x="265" y="9744" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="266" x="265" y="11008" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="267" x="242" y="9631" measuredWidth="587" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="587" text="Map">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="268" x="250" y="10895" measuredWidth="587" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="587" text="Venues">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="269" x="259" y="13551" measuredWidth="587" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="587" text="FAQ">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="270" x="248" y="12337" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="271" x="256" y="13664" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="272" x="242" y="14984" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="273" x="275" y="12234" measuredWidth="587" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="587" text="Settings">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="274" x="250" y="14871" measuredWidth="587" measuredHeight="114">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" width="587" text="About Us">
+        <font size="80px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="140" x="1242" y="4818" width="117" measuredWidth="117" measuredHeight="6"/>
+  <widgets xsi:type="model:Master" id="281" x="279" y="7287" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="283" x="281" y="7318" measuredWidth="480" measuredHeight="87">
+    <screen xsi:type="model:Screen" href="MenuBar.screen#/"/>
+    <overrides>
+      <widgets ref="4/237" text="Speakers">
+        <font size="32px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="284" x="247" y="4674" measuredWidth="480" measuredHeight="87">
+    <screen xsi:type="model:Screen" href="MenuBar.screen#/"/>
+    <overrides>
+      <widgets ref="4/237" text="Schedule">
+        <font size="32px"/>
+      </widgets>
+      <widgets ref="4" x="81" y="20"/>
+      <widgets ref="1/206" y="14"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="286" x="1052" y="4677" measuredWidth="480" measuredHeight="87">
+    <screen xsi:type="model:Screen" href="MenuBar.screen#/"/>
+    <overrides>
+      <widgets ref="4/237" text="Schedule">
+        <font size="32px"/>
+      </widgets>
+      <widgets ref="4" x="81" y="20"/>
+      <widgets ref="1/206" y="14"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="287" x="1900" y="4677" measuredWidth="480" measuredHeight="87">
+    <screen xsi:type="model:Screen" href="MenuBar.screen#/"/>
+    <overrides>
+      <widgets ref="4/237" text="Schedule">
+        <font size="32px"/>
+      </widgets>
+      <widgets ref="4" x="81" y="20"/>
+      <widgets ref="1/206" y="14"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="288" x="246" y="5040" measuredWidth="478" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" width="478" text="10:00 AM  -  11:00 AM">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="289" x="247" y="5209" measuredWidth="478" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" width="478" text="11:00 AM  -  12:00 AM">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="291" x="2640" y="4690" measuredWidth="480" measuredHeight="87">
+    <screen xsi:type="model:Screen" href="MenuBar.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="4"/>
+      <widgetChanges xsi:type="o:Delete" ref="2"/>
+      <widgets ref="1/206" y="19"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="292" x="2640" y="4658" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="294" x="1053" y="4826" measuredWidth="478" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" width="478" text="09:00 AM  -  10:00 AM">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="295" x="1052" y="5040" measuredWidth="478" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" width="478" text="10:00 AM  -  11:00 AM">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="296" x="1053" y="5209" measuredWidth="478" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" width="478" text="11:00 AM  -  12:00 AM">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="297" x="1901" y="4826" width="480" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" text="09:00 AM  -  10:00 AM">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="298" x="1900" y="5040" measuredWidth="478" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" width="478" text="10:00 AM  -  11:00 AM">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="299" x="1901" y="5209" measuredWidth="478" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" width="478" text="11:00 AM  -  12:00 AM">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="301" x="2640" y="4775" measuredWidth="481" measuredHeight="72">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Menu"/>
+    <overrides>
+      <widgets ref="357" x="14" y="0" width="445" height="12" noText="true">
+        <itemChanges xsi:type="o:Delete" ref="@items.3"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+      <widgets ref="356" width="481" height="72"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="302" x="2729" y="4782" measuredWidth="101" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" width="101" text="Day1">
+        <attributes key="state" value="disabled"/>
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="303" x="2844" y="4782" measuredWidth="95" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Day2">
+        <attributes key="state" value="disabled"/>
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="304" x="2963" y="4782" measuredWidth="91" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" width="91" text="Day3">
+        <font size="40px" bold="false"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="305" x="2948" y="4837" width="117" measuredWidth="117" measuredHeight="6"/>
+  <widgets xsi:type="model:Master" id="293" x="2716" y="4700" width="395" measuredWidth="395" measuredHeight="60">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="288" width="395" height="60" text="artif">
+        <attributes key="background" value="#6fa8dc"/>
+        <attributes key="alpha" value="0"/>
+        <attributes key="border" value="solid"/>
+        <font size="26px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="306" x="2655" y="4879" measuredWidth="478" measuredHeight="36">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="478" height="36" text="Artificial Intelligence&#xD;&#xA;">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="307" x="2654" y="4921" height="150" measuredWidth="451" measuredHeight="150">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="451" height="150" text="&#xD;&#xA;The Artificial Intelligence (AI) track provides an exciting place for researchers and practitioners...&#xD;&#xA;&#xD;&#xA;9:00 AM  -  10:00 AM Annexure Hall (Ground Floor)"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="308" x="2640" y="4845" width="480" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" text="A">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="310" x="2641" y="5160" height="316" measuredWidth="480" measuredHeight="316">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Keyboard"/>
+    <overrides>
+      <widgets ref="60" height="316"/>
+      <widgets ref="61" y="56" height="61"/>
+      <widgets ref="62" y="56" height="61"/>
+      <widgets ref="63" y="56" height="61"/>
+      <widgets ref="64" y="56" height="61"/>
+      <widgets ref="65" y="56" height="61"/>
+      <widgets ref="66" y="56" height="61"/>
+      <widgets ref="67" y="56" height="61"/>
+      <widgets ref="68" y="56" height="61"/>
+      <widgets ref="69" y="56" height="61"/>
+      <widgets ref="70" y="56" height="61"/>
+      <widgets ref="71" y="122" height="61"/>
+      <widgets ref="72" y="122" height="61"/>
+      <widgets ref="73" y="122" height="61"/>
+      <widgets ref="74" y="122" height="61"/>
+      <widgets ref="75" y="122" height="61"/>
+      <widgets ref="76" y="122" height="61"/>
+      <widgets ref="77" y="122" height="61"/>
+      <widgets ref="78" y="122" height="61"/>
+      <widgets ref="79" y="122" height="61"/>
+      <widgets ref="80" y="187" height="61"/>
+      <widgets ref="81" y="187" height="61"/>
+      <widgets ref="82" y="187" height="61"/>
+      <widgets ref="83" y="187" height="61"/>
+      <widgets ref="84" y="187" height="61"/>
+      <widgets ref="85" y="187" height="61"/>
+      <widgets ref="86" y="187" height="61"/>
+      <widgets ref="87" y="187" height="61"/>
+      <widgets ref="88" y="187" height="61"/>
+      <widgets ref="89" y="252" height="61"/>
+      <widgets ref="90" y="252" height="61"/>
+      <widgets ref="91" y="252" height="61"/>
+      <widgets ref="92" y="252" height="61"/>
+      <widgets ref="93" y="252" height="61"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="311" x="2641" y="5154" measuredWidth="478" measuredHeight="64">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="288" width="478" height="64" text="  artic  |  artificial  |  article  |  artifact  |  arrived">
+        <attributes key="alpha" value="0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="312" x="2646" y="4699" measuredWidth="62" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#List%20Icon"/>
+    <overrides>
+      <widgets ref="172">
+        <attributes key="alpha" value="0"/>
+        <attributes key="icon" value="assets/fa-arrow-left (xlarge)"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="313" x="708" y="4828" height="612" measuredWidth="17" measuredHeight="612"/>
+  <widgets xsi:type="model:VScrollbar" id="314" x="1515" y="4828" height="612" measuredWidth="17" measuredHeight="612"/>
+  <widgets xsi:type="model:VScrollbar" id="315" x="2367" y="4828" height="612" measuredWidth="17" measuredHeight="612"/>
+  <widgets xsi:type="model:VScrollbar" id="316" x="3104" y="4850" height="304" measuredWidth="17" measuredHeight="304"/>
+  <widgets xsi:type="model:Master" id="317" x="331" y="7431" measuredWidth="174" measuredHeight="174">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Tile"/>
+    <overrides>
+      <widgets ref="242">
+        <attributes key="icon" value="user (custom)"/>
+      </widgets>
+      <widgets ref="243" x="98" y="118" text="Santosh"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="469" x="547" y="7431" measuredWidth="174" measuredHeight="174">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Tile"/>
+    <overrides>
+      <widgets ref="242">
+        <attributes key="icon" value="user (custom)"/>
+      </widgets>
+      <widgets ref="243" x="129" y="118" text="Ravi">
+        <attributes key="textAlignment" value="Right"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="470" x="547" y="7631" measuredWidth="174" measuredHeight="174">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Tile"/>
+    <overrides>
+      <widgets ref="242">
+        <attributes key="icon" value="user (custom)"/>
+      </widgets>
+      <widgets ref="243" x="98" y="118" text="Santosh"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="471" x="331" y="7631" measuredWidth="174" measuredHeight="174">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Tile"/>
+    <overrides>
+      <widgets ref="242">
+        <attributes key="icon" value="user (custom)"/>
+      </widgets>
+      <widgets ref="243" x="98" y="118" text="Santosh"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="472" x="331" y="7831" measuredWidth="174" measuredHeight="174">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Tile"/>
+    <overrides>
+      <widgets ref="242">
+        <attributes key="icon" value="user (custom)"/>
+      </widgets>
+      <widgets ref="243" x="98" y="118" text="Santosh"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="473" x="547" y="7831" measuredWidth="174" measuredHeight="174">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Tile"/>
+    <overrides>
+      <widgets ref="242">
+        <attributes key="icon" value="user (custom)"/>
+      </widgets>
+      <widgets ref="243" x="98" y="118" text="Santosh"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="474" x="335" y="7570" measuredWidth="175" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Full Stack Developer">
+        <attributes key="foreground" value="#fff"/>
+        <font size="19px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="475" x="563" y="7572" measuredWidth="160" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Software Engineer">
+        <attributes key="foreground" value="#fff"/>
+        <font size="19px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="476" x="334" y="7774" measuredWidth="175" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Full Stack Developer">
+        <attributes key="foreground" value="#fff"/>
+        <font size="19px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="477" x="563" y="7773" measuredWidth="160" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Software Engineer">
+        <attributes key="foreground" value="#fff"/>
+        <font size="19px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="478" x="332" y="7971" measuredWidth="175" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Full Stack Developer">
+        <attributes key="foreground" value="#fff"/>
+        <font size="19px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="479" x="560" y="7973" measuredWidth="160" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Software Engineer">
+        <attributes key="foreground" value="#fff"/>
+        <font size="19px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="480" x="1058" y="7210" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="481" x="1105" y="7297" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="482" x="1108" y="7329" height="296" measuredWidth="476" measuredHeight="296">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Tile"/>
+    <overrides>
+      <widgets ref="241" width="476" height="296"/>
+      <widgets ref="242" x="117" y="64" width="240" height="149">
+        <attributes key="icon" value="user (custom)"/>
+      </widgets>
+      <widgets ref="243" x="24" y="212" width="199" text="Santosh"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="484" x="1130" y="7577" measuredWidth="319" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Full Stack Developer at TheSmartLabs">
+        <attributes key="foreground" value="#fff"/>
+        <font size="19px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="485" x="1114" y="7646" measuredWidth="469" measuredHeight="177">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="469" height="177" text="This is some content which talks about the user and basically gives a rough idea of their profile. This is some content which talks about the user and basically gives a rough idea of their profile. This is some content which talks about the user and basically gives a rough idea of their profile. "/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="486" x="1118" y="7822" measuredWidth="62" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#List%20Icon"/>
+    <overrides>
+      <widgets ref="172">
+        <attributes key="alpha" value="0"/>
+        <attributes key="icon" value="assets/fb (xlarge)"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="487" x="1184" y="7822" measuredWidth="62" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#List%20Icon"/>
+    <overrides>
+      <widgets ref="172">
+        <attributes key="icon" value="assets/twitter (xlarge)"/>
+        <attributes key="alpha" value="0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="488" x="1251" y="7822" measuredWidth="62" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#List%20Icon"/>
+    <overrides>
+      <widgets ref="172">
+        <attributes key="icon" value="assets/linkedin (xlarge)"/>
+        <attributes key="alpha" value="0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="489" x="1318" y="7822" measuredWidth="62" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#List%20Icon"/>
+    <overrides>
+      <widgets ref="172">
+        <attributes key="alpha" value="0"/>
+        <attributes key="icon" value="assets/github (xlarge)"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="491" x="1106" y="7883" height="54" measuredWidth="479" measuredHeight="54">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Menu"/>
+    <overrides>
+      <widgets ref="357" x="0" y="0" width="479" height="53" text="Events Speaking">
+        <attributes key="rowHeight" value="20"/>
+        <items ref="@items.4" text="Events Speaking"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.3"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+      <widgets ref="356" width="479" height="54">
+        <attributes key="background" value="#6fa8dc"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="492" x="1106" y="7936" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" text="Event 1">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="494" x="1105" y="7972" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" text="Event 2">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="495" x="1106" y="8008" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="310"/>
+      <widgetChanges xsi:type="o:Delete" ref="309"/>
+      <widgets ref="308" text="Event 3">
+        <attributes key="textAlignment" value="Left"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="496" x="1854" y="7210" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Move" ref="1" newIndex="4"/>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="foreground" value="#444"/>
+        <attributes key="border" value="solid-rounded"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="497" x="1902" y="7329" measuredWidth="480" measuredHeight="87">
+    <screen xsi:type="model:Screen" href="MenuBar.screen#/"/>
+    <overrides>
+      <widgetChanges xsi:type="o:Delete" ref="4"/>
+      <widgetChanges xsi:type="o:Delete" ref="2"/>
+      <widgets ref="1/206" y="19"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="498" x="1902" y="7297" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="499" x="1978" y="7339" measuredWidth="395" measuredHeight="60">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="288" width="395" height="60" text="rav">
+        <attributes key="background" value="#6fa8dc"/>
+        <attributes key="alpha" value="0"/>
+        <attributes key="border" value="solid"/>
+        <font size="26px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="500" x="1903" y="7799" measuredWidth="480" measuredHeight="316">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Keyboard"/>
+    <overrides>
+      <widgets ref="60" height="316"/>
+      <widgets ref="61" y="56" height="61"/>
+      <widgets ref="62" y="56" height="61"/>
+      <widgets ref="63" y="56" height="61"/>
+      <widgets ref="64" y="56" height="61"/>
+      <widgets ref="65" y="56" height="61"/>
+      <widgets ref="66" y="56" height="61"/>
+      <widgets ref="67" y="56" height="61"/>
+      <widgets ref="68" y="56" height="61"/>
+      <widgets ref="69" y="56" height="61"/>
+      <widgets ref="70" y="56" height="61"/>
+      <widgets ref="71" y="122" height="61"/>
+      <widgets ref="72" y="122" height="61"/>
+      <widgets ref="73" y="122" height="61"/>
+      <widgets ref="74" y="122" height="61"/>
+      <widgets ref="75" y="122" height="61"/>
+      <widgets ref="76" y="122" height="61"/>
+      <widgets ref="77" y="122" height="61"/>
+      <widgets ref="78" y="122" height="61"/>
+      <widgets ref="79" y="122" height="61"/>
+      <widgets ref="80" y="187" height="61"/>
+      <widgets ref="81" y="187" height="61"/>
+      <widgets ref="82" y="187" height="61"/>
+      <widgets ref="83" y="187" height="61"/>
+      <widgets ref="84" y="187" height="61"/>
+      <widgets ref="85" y="187" height="61"/>
+      <widgets ref="86" y="187" height="61"/>
+      <widgets ref="87" y="187" height="61"/>
+      <widgets ref="88" y="187" height="61"/>
+      <widgets ref="89" y="252" height="61"/>
+      <widgets ref="90" y="252" height="61"/>
+      <widgets ref="91" y="252" height="61"/>
+      <widgets ref="92" y="252" height="61"/>
+      <widgets ref="93" y="252" height="61"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="501" x="1908" y="7338" measuredWidth="62" measuredHeight="62">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#List%20Icon"/>
+    <overrides>
+      <widgets ref="172">
+        <attributes key="alpha" value="0"/>
+        <attributes key="icon" value="assets/fa-arrow-left (xlarge)"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="502" x="2366" y="7415" height="378" measuredWidth="17" measuredHeight="378"/>
+  <widgets xsi:type="model:Master" id="503" x="1904" y="7792" measuredWidth="478" measuredHeight="64">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="288" width="478" height="64" text="  Ravi  |  David  |  raven  |  Rachel  |  facebook  |">
+        <attributes key="alpha" value="0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="504" x="1936" y="7451" measuredWidth="174" measuredHeight="174">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Tile"/>
+    <overrides>
+      <widgets ref="242">
+        <attributes key="icon" value="user (custom)"/>
+      </widgets>
+      <widgets ref="243" x="129" y="118" text="Ravi">
+        <attributes key="textAlignment" value="Right"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="505" x="1952" y="7592" measuredWidth="160" measuredHeight="33">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Software Engineer">
+        <attributes key="foreground" value="#fff"/>
+        <font size="19px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="506" x="1567" y="7624" height="462" measuredWidth="17" measuredHeight="462"/>
+  <widgets xsi:type="model:VScrollbar" id="507" x="747" y="7405" height="682" measuredWidth="17" measuredHeight="682"/>
+  <widgets xsi:type="model:Image" id="510" x="1834" y="368" width="480" height="148" measuredWidth="480" measuredHeight="148" src="assets/images/ghc2.jpg"/>
+  <widgets xsi:type="model:Master" id="511" x="1831" y="513" measuredWidth="482" measuredHeight="478">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Menu"/>
+    <overrides>
+      <widgets ref="356" width="482" height="478">
+        <attributes key="background" value="#6fa8dc"/>
+      </widgets>
+      <widgets ref="357" y="10" width="447" height="446" noText="true">
+        <itemChanges xsi:type="o:Delete" ref="@items.3"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.2"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.1"/>
+        <itemChanges xsi:type="o:Delete" ref="@items.0"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="512" x="1993" y="880" measuredWidth="167" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Button"/>
+    <overrides>
+      <widgets ref="170" text="Sign Up"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="513" x="1861" y="523" measuredWidth="431" measuredHeight="46">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="288" text="Name">
+        <attributes key="background" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="514" x="1861" y="595" measuredWidth="431" measuredHeight="46">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="288" text="Email">
+        <attributes key="background" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="515" x="1863" y="666" measuredWidth="431" measuredHeight="46">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Field"/>
+    <overrides>
+      <widgets ref="288" text="Passowrd">
+        <attributes key="background" value="#fff"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="516" x="1928" y="767" measuredWidth="316" measuredHeight="45">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" width="316" text="And Other required details">
+        <font size="26px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="517" x="304" y="8591" measuredWidth="480" measuredHeight="87">
+    <screen xsi:type="model:Screen" href="MenuBar.screen#/"/>
+    <overrides>
+      <widgets ref="4/237" text="Sponsors">
+        <font size="32px"/>
+      </widgets>
+      <widgets ref="4" y="19"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="518" x="946" y="8514" measuredWidth="576" measuredHeight="1077">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Phone"/>
+    <overrides>
+      <widgets ref="1">
+        <attributes key="background" value="#444"/>
+      </widgets>
+      <widgets ref="5">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="4">
+        <attributes key="foreground" value="#fff"/>
+      </widgets>
+      <widgets ref="3">
+        <attributes key="border" value="solid-rounded"/>
+        <attributes key="foreground" value="#444"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="519" x="994" y="8601" measuredWidth="480" measuredHeight="87">
+    <screen xsi:type="model:Screen" href="MenuBar.screen#/"/>
+    <overrides>
+      <widgets ref="4/237" text="Sponsors">
+        <font size="32px"/>
+      </widgets>
+      <widgets ref="4" y="19"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Image" id="520" x="304" y="8677" width="481" height="715" measuredWidth="481" measuredHeight="715" src="assets/images/sponsors.png"/>
+  <widgets xsi:type="model:Master" id="521" x="1012" y="8700" measuredWidth="348" measuredHeight="53">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Corporate Sponsorships">
+        <font size="32px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="522" x="1027" y="8755" height="238" measuredWidth="437" measuredHeight="238">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="437" height="238" text="Corporate sponsorships are perfect for those looking to recruit the next generation of women technologists, to bring their executives for professional development, and to inspire all of their employees. Sponsoring GHC show you are dedicated to advancing the technologists not only within your company, but also across the industry."/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="523" x="1284" y="8979" measuredWidth="167" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Button"/>
+    <overrides>
+      <widgets ref="170" text="Sponsor Now"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="524" x="1012" y="9047" measuredWidth="344" measuredHeight="53">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Academic Sponsorships">
+        <font size="32px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="525" x="1027" y="9102" measuredWidth="439" measuredHeight="212">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="439" height="212" text="Show your commitment to women in tech, recruit prospective graduate students, and contribute to the professional development of your students and faculty by sponsoring GHC 17"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="526" x="1284" y="9226" measuredWidth="167" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Button"/>
+    <overrides>
+      <widgets ref="170" text="Sponsor Now"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="527" x="1461" y="8687" height="714" measuredWidth="17" measuredHeight="714"/>
+  <widgets xsi:type="model:VScrollbar" id="528" x="770" y="8677" height="715" measuredWidth="17" measuredHeight="715"/>
+  <widgets xsi:type="model:Master" id="529" x="1022" y="8977" measuredWidth="180" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#On%20Label"/>
+    <overrides>
+      <widgets ref="237" text="Learn More >"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Image" id="530" x="1015" y="8977" measuredWidth="192" measuredHeight="50" src="assets/images/learn_more.png"/>
+  <widgets xsi:type="model:Image" id="531" x="1017" y="9223" measuredWidth="192" measuredHeight="50" src="assets/images/learn_more.png"/>
+  <widgets xsi:type="model:Master" id="532" x="1011" y="9297" measuredWidth="388" measuredHeight="53">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="Government Opportunities">
+        <font size="32px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="533" x="1027" y="9352" height="48" measuredWidth="439" measuredHeight="48">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="439" height="48" text="Be a leader in tech by supporting GHC. As a government patron, you’ll have career and interview booths to recruit new employees. You’ll also send students and faculty to the celebration by providing scholarships to GHC."/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="534" x="290" y="15101" measuredWidth="480" measuredHeight="87">
+    <screen xsi:type="model:Screen" href="MenuBar.screen#/"/>
+    <overrides>
+      <widgets ref="4/237" text="About Us">
+        <font size="32px"/>
+      </widgets>
+      <widgets ref="4" y="20"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="535" x="312" y="15196" measuredWidth="107" measuredHeight="53">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="History">
+        <attributes key="foreground" value="#6fa8dc"/>
+        <font size="32px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="536" x="326" y="15248" measuredWidth="439" measuredHeight="212">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="439" height="212" text="Co-founded by Dr. Anita Borg and Dr. Telle Whitney in 1994 and inspired by the legacy of Admiral Grace Murray Hopper, Anita Borg Institute’s Grace Hopper Celebration (GHC) of Women in Computing brings the research and career interests of women in computing to the forefront."/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="537" x="311" y="15459" measuredWidth="168" measuredHeight="53">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Title"/>
+    <overrides>
+      <widgets ref="227" text="About GHC">
+        <attributes key="foreground" value="#9fc5e8"/>
+        <font size="32px"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="538" x="323" y="15574" height="297" measuredWidth="439" measuredHeight="297">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="439" height="297" text="Every year, women technologists and the best minds in computing convene to highlight the contributions of women to computing. The Anita Borg Institute co-presents GHC with the Association of Computing Machinery (ACM).&#xD;&#xA;&#xD;&#xA;The conference results in collaborative proposals, networking and mentoring for our attendees. Conference presenters are leaders in their respective fields, representing industry, academia and government. The conference also offers professional development through a variety of activities."/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="539" x="323" y="15511" measuredWidth="439" measuredHeight="64">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="439" height="64" text="GHC is the world’s largest technical conference for women in computing.">
+        <font bold="true"/>
+      </widgets>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="540" x="304" y="13782" measuredWidth="480" measuredHeight="87">
+    <screen xsi:type="model:Screen" href="MenuBar.screen#/"/>
+    <overrides>
+      <widgets ref="4/237" text="FAQ's">
+        <font size="32px"/>
+      </widgets>
+      <widgets ref="4" y="18"/>
+    </overrides>
+  </widgets>
+  <widgets xsi:type="model:Master" id="541" x="289" y="15071" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="542" x="304" y="13751" measuredWidth="480" measuredHeight="32">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Status%20Bar"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="543" x="251" y="2232" width="282" measuredWidth="282" measuredHeight="6"/>
+  <widgets xsi:type="model:Master" id="545" x="322" y="14264" width="460" measuredWidth="460" measuredHeight="206">
+    <screen xsi:type="model:WidgetGroup" href="assets/WindowsPhone/WindowsPhone.screen#Text%20Paragraph"/>
+    <overrides>
+      <widgets ref="231" width="460" height="206" text="Some more frequently asked questions on various topics"/>
+    </overrides>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="4428"/>
+    <guides position="4850"/>
+  </vRuler>
+  <font size="12px"/>
+</model:Screen>
